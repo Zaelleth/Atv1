@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre o CSS</title>
+    <style>
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color: #000033;
+    color: white;
+}
+ 
+    </style>
+</head>
+<body>
+    <div style="position:relative; background-color: #00001f; height: 100%; margin-left: 300px; margin-right: 300px;">
+    <h1><center>CSS</center></h1>
+    <div style="margin-left: 300px; margin-right: 300px;">
+        <p align="justify">Cascading Style Sheets (abreviado CSS) é um mecanismo para adicionar estilos (cores, fontes, espaçamento, etc.) 
+        a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags style. Também é possível, adicionar estilos 
+        adicionando um link para um arquivo CSS que contém os estilos. Assim, quando se quiser alterar a aparência dos documentos vinculados 
+        a este arquivo CSS, basta modifica-lo. Com a variação de atualizações dos navegadores, o suporte ao CSS pode variar. A interpretação 
+        dos navegadores pode ser avaliada com o teste Acid2, que se tornou uma forma base de revelar quão eficiente é o suporte de CSS, fazendo 
+        com que a nova versão em desenvolvimento do Firefox seja totalmente compatível a ele, assim como o Opera já é. O Doctype informado, ou 
+        a ausência dele, determina o quirks mode ou o strict mode, modificando o modo como o CSS é interpretado e a página desenhada.</p>
+        </div>
+        <div style="margin-left: 300px; margin-right: 300px; border-bottom: 2px solid black;">
+            <h2>História</h2>
+        </div>
+        <div style="margin-left: 300px; margin-right: 300px;">
+        <p align="justify">O CSS foi proposto pela primeira vez por Håkon Wium Lie em 10 de outubro de 1994. Na época, Lie estava trabalhando com 
+            Tim Berners-Lee no CERN. Várias outras linguagens de folha de estilo para a web foram propostas na mesma época, e as discussões em listas 
+            de discussão públicas e dentro do World Wide Web Consortium resultaram no lançamento da primeira recomendação W3C CSS (CSS1) em 1996. Em 
+            particular, uma proposta de Bert Bos foi influente; tornou-se co-autor do CSS1 e é considerado co-criador do CSS.<br>
+            <br>
+            As folhas de estilo existem de uma forma ou de outra desde o início da Standard Generalized Markup Language (SGML) na década de 1980, e o CSS 
+            foi desenvolvido para fornecer folhas de estilo para a web. Um requisito para uma linguagem de folha de estilo da web era que as folhas de estilo 
+            viessem de fontes diferentes na web. Portanto, as linguagens de folha de estilo existentes, como DSSSL e FOSI, não eram adequadas. O CSS, por outro 
+            lado, permite que o estilo de um documento seja influenciado por várias folhas de estilo por meio de estilos em "cascata".<br>
+            <br>
+            A medida que o HTML cresceu, passou a abranger uma ampla variedade de recursos estilísticos para atender às demandas dos desenvolvedores da Web. 
+            Essa evolução deu ao designer mais controle sobre a aparência do site, ao custo de um HTML mais complexo. Variações nas implementações de navegadores 
+            da Web, como ViolaWWW e WorldWideWeb, dificultavam a aparência consistente do site e os usuários tinham menos controle sobre como o conteúdo da Web era 
+            exibido. O navegador/editor desenvolvido por Tim Berners-Lee tinha folhas de estilo que eram codificadas no programa. As folhas de estilo não podem, 
+            portanto, ser vinculadas a documentos na web. Robert Cailliau, também do CERN, queria separar a estrutura da apresentação para que diferentes folhas de 
+            estilo pudessem descrever diferentes apresentações para impressão, apresentações baseadas em tela e editores.<br>
+            <br>
+            Melhorar as capacidades de apresentação na web era um tópico de interesse para muitos na comunidade da web e nove diferentes linguagens de folha de estilo 
+            foram propostas na lista de discussão do estilo www. Dessas nove propostas, duas foram especialmente influentes no que se tornou CSS: Cascading HTML Style 
+            Sheets e Stream-based Style Sheet Proposal (SSP). Dois navegadores serviram de testbed para as propostas iniciais; Lie trabalhou com Yves Lafon para implementar 
+            CSS no navegador Arena de Dave Raggett. Bert Bos implementou sua própria proposta SSP no navegador Argo. Posteriormente, Lie e Bos trabalharam juntos para 
+            desenvolver o padrão CSS (o 'H' foi removido do nome porque essas folhas de estilo também poderiam ser aplicadas a outras linguagens de marcação além do HTML).<br>
+            <br>
+            A proposta de Lie foi apresentada na conferência "Mosaic and the Web" (mais tarde chamada WWW2) em Chicago, Illinois em 1994, e novamente com Bert Bos em 1995. 
+            Nessa época o W3C já estava sendo estabelecido e se interessou pelo desenvolvimento de CSS. Para esse fim, organizou um workshop presidido por Steven Pemberton. 
+            Isso resultou no W3C adicionando trabalho em CSS às entregas do conselho de revisão editorial (ERB) de HTML. Lie e Bos foram a principal equipe técnica neste aspecto 
+            do projeto, com membros adicionais, incluindo Thomas Reardon da Microsoft, participando também. Em agosto de 1996, a Netscape Communication Corporation apresentou uma 
+            linguagem de folha de estilo alternativa chamada JavaScript Style Sheets (JSSS). A especificação nunca foi concluída e está obsoleta. No final de 1996, o CSS estava 
+            pronto para se tornar oficial, e a Recomendação do nível 1 do CSS foi publicada em dezembro.<br>
+            <br>
+            O desenvolvimento de HTML, CSS e DOM vinha ocorrendo em um grupo, o HTML Editorial Review Board (ERB). No início de 1997, o ERB foi dividido em três grupos de trabalho: 
+            Grupo de Trabalho HTML, presidido por Dan Connolly do W3C; Grupo de Trabalho DOM, presidido por Lauren Wood da SoftQuad; e CSS Working group, presidido por Chris Lilley do W3C.<br>
+            <br>
+            O CSS Working Group começou a lidar com questões que não haviam sido abordadas com CSS nível 1, resultando na criação do CSS nível 2 em 4 de novembro de 1997. Foi publicado 
+            como uma recomendação do W3C em 12 de maio de 1998. CSS nível 3, que foi começou em 1998, ainda está em desenvolvimento a partir de 2014.<br>
+            <br>
+            Em 2005, os Grupos de Trabalho CSS decidiram aplicar os requisitos de padrões de forma mais rigorosa. Isso significa que os padrões já publicados, como CSS 2.1, CSS 3 Selectors e 
+            CSS 3 Text, foram retirados do nível Candidate Recommendation para o nível Working Draft.</p>
+        </div>
+</div>
+</body>
+</html>
